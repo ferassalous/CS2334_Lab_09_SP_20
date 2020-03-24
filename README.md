@@ -1,9 +1,13 @@
-# Lab 7: Stacks And Queues
+# Lab 9: Generics and PriorityQueue
+Welcome to Lab 9! In Lab 9 we will take a look at generics in Java and also look into the PriorityQueue data structure. In order to demonstrate generics in java we will be taking a look back at a previous lab(Lab 7: Stacks and Queues) and making slight modifications to it. Lets get started.
 
-Welcome to Lab 7! In Lab 7 we will be implementing our very own Hotel, with two diffrent data structures a stack and queue. We will also take a look at a library called LocalDateTime which will allow our program to keep track of the time of when guests check in and out of the hotel. Lets get started!
+# Generics In Java
+A generic type is a generic class or interface that is parameterized over types. What this means is that generic types allow us to write a generic class or method that works with diffrent types(i.e.: String, Integer, Double, Guest) which will allow for code re-use.
 
-# Stacks
-Stack is a collection of elements, that follows the LIFO order. LIFO stands for Last In First Out, which means element which is inserted most recently will be removed first. Imagine a stack of trays on the table. When you put a tray there you put it at the top, and when you remove it, you also remove it from the top. A stack has a restriction that insertion and deletion of element can only be done from only one end of stack and we call that position the topOfStack. The element at the top position is called the top element. Insertion of an element is called PUSH and deletion is called POP.
+# Working with Generics
+1. Declaring a generic class
+
+
 
 ![A Visual Represantion of a Stack](StackVisual.png)
 
