@@ -20,7 +20,7 @@ A generic type is a generic class or interface that is parameterized over types.
 
 # PriorityQueue 
 A PriorityQueue is used when the objects are supposed to be processed based on the priority. It is known that a queue follows First-In-First-Out algorithm, but sometimes the elements of the queue are needed to be processed according to the priority, that’s when the PriorityQueue comes into play. The PriorityQueue is based on the priority heap. The elements of the priority queue are ordered according to the natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
-[PriorityQueue Java Api](https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html "PriorityQueue Java Api")
+[PriorityQueue Java Api Link](https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html "PriorityQueue Java Api Link")
 
 
 # Lab Instructions
