@@ -28,9 +28,7 @@ public class Guest <T> implements Comparable<Guest<T>>{
 		
 	} 
 	public Guest(T name, LocalDateTime timeCheckedIn, int roomNumber) {
-		this.name = name;
-		this.timeCheckedIn = timeCheckedIn;
-		this.roomNumber = roomNumber;
+		//TODO: Initialize variables.
 	}
 	/*
 	 * TODO: Generate getter for name
@@ -39,7 +37,7 @@ public class Guest <T> implements Comparable<Guest<T>>{
 		return name;
 	}
 	public LocalDateTime getTimeCheckedIn() {
-		return timeCheckedIn;
+		
 	}
 	/*
 	 * TODO: Format the toString
@@ -56,10 +54,7 @@ public class Guest <T> implements Comparable<Guest<T>>{
 		
 		
 	}
-	/*
-	 * TODO: Implement a compareTo method for the guest class
-	 */
-	
+	//TODO: Implement the compareTo method below
 	/**
      * Comparison override. Comparison for Guests sorts the guests in order of when the guest
      * was checked in. You will be comparing the room number the guests checked in the hotel to determine there order.

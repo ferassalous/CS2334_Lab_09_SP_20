@@ -14,20 +14,21 @@ import java.util.PriorityQueue;
  *
  */
 public class PriorityQueueHotel<T> extends Hotel<T> {
-	
+	/*
+	 * TODO: Initialize the PriorityQueue
+	 */
 	private PriorityQueue<Guest<T>> guestList;
 	
 	public PriorityQueueHotel(T hotelName) {
-		super(hotelName);
-		guestList = new PriorityQueue<Guest<T>>();
+		
 	}
 	/**
 	 * Add a Guest into the hotel. If the guest is added return true, otherwise return false.
 	 */
 	@Override
 	public boolean addGuest(Guest<T> guest) {
-		// TODO Auto-generated method stub
-		return guestList.add(guest);
+		// TODO
+		
 	}
 	/**
 	 * Retrieves the number of guests checked in to the hotel currently. 
@@ -36,8 +37,8 @@ public class PriorityQueueHotel<T> extends Hotel<T> {
 	 */
 	@Override
 	public int numGuestsCheckedIn() {
-		// TODO Auto-generated method stub
-		return guestList.size();
+		// TODO
+
 	}
 	/**
 	 * Retrieves the next guest to be checked out of the hotel.
@@ -45,8 +46,8 @@ public class PriorityQueueHotel<T> extends Hotel<T> {
 	 */
 	@Override
 	public Guest<T> nextGuestToCheckOut() {
-		// TODO Auto-generated method stub
-		return guestList.peek();
+		// TODO 
+		
 	}
 	/**
 	 * Removes a Guest from the hotel.
@@ -54,8 +55,8 @@ public class PriorityQueueHotel<T> extends Hotel<T> {
 	 */
 	@Override
 	public Guest<T> checkOut() {
-		// TODO Auto-generated method stub
-		return guestList.poll();
+		// TODO 
+		
 	}
 
 }
