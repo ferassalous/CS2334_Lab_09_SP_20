@@ -46,6 +46,10 @@ Methods to implement:
   Methods to implement:
  * Upon connecting it with the parent class(hotel), implement all abstract methods defined.
   * The diffrence between the Lab 7 and Lab 9 is rather than holding our guests in an Array we will hold them in an Arraylist. 
+  # PriorityQueueHotel
+  This class represents a PriorityQueueHotel. Keep in mind the PriorityQueue requires a compareTo method to sort the guests in the PriorityQueue. The compareTo method will be defined in the guest class ordering guests in the PriorityQueue based on natural ordering of the room number. That means when we remove a guest from the PriortityQueue the first one out should be the guest with the lowest number and so on. 
+  * Upon connecting it with the parent class(hotel), implement all abstract methods defined.
+  * Use the PriorityQueue data structure defined in the Java library. The Api contains all of the methods required to add, remove, check next, and remove a guest so please use that for assistance when implementing the PriorirtyQueue.
 
  
  
