@@ -4,13 +4,18 @@ Welcome to Lab 9! In Lab 9 we will take a look at generics in Java and also look
 # Generics In Java
 A generic type is a generic class or interface that is parameterized over types. What this means is that generic types allow us to write a generic class or method that works with diffrent types(i.e.: String, Integer, Double, Guest) which will allow for code re-use.
 
-# Working with Generics
-1. Declaring a generic class
+# Declaring A Generic Class
+![Declaring a generic class](DeclaringGenericClass.png)
+* The type parameter section, delimited by angle brackets (<>), follows the class name. It specifies the type parameters (also called type variables) T1, T2, ..., and Tn. The type varaibles can be any non-primitive type(String, Integer, Double, Guest, etc..)
 
+# Example of Generic Class
+![Generic class example](BoxGen.png)
+A few things to note here:
+* Notice the declarion of the variable of the name t. We are declaring this variable as Type T and what this says is that when the box object is created, take the type passed in(String, Double, Integer) and set it as the type of this variable..
 
-
-![A Visual Represantion of a Stack](StackVisual.png)
-
+# Declaring a Generic Class Object
+* Box<Integer> integerBox = new Box<>(); // a box of type integer. 
+* Box<String> stringBox = new Box<>(); // a box of type string.
 # Queues
 Queue is a data structure that follows the FIFO principle. FIFO means First In First Out i.e the element added first in the queue will be the one to be removed first. Elements are always added to the back and removed from the front. Think of it as a line of people waiting for a bus at the bus stand. The person who will come first will be the first one to enter the bus. Queue supports some fundamental functions: Enqueue adds an element to the back of the queue and Dequeue removes the element from the front of the queue.
 ![A Visual Represantion of a Queue](QueueVisual.png)
