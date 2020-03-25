@@ -5,6 +5,7 @@ Welcome to Lab 9! In Lab 9 we will take a look at generics in Java and also look
 A generic type is a generic class or interface that is parameterized over types. What this means is that generic types allow us to write a generic class or method that works with diffrent types(i.e.: String, Integer, Double, Guest) which will allow for code re-use.
 
 # Declaring A Generic Class
+* The declaration of generic class looks as such: 
 ![Declaring a generic class](DeclaringGenericClass.png)
 * The type parameter section, delimited by angle brackets (<>), follows the class name. It specifies the type parameters (also called type variables) T1, T2, ..., and Tn. The type varaibles can be any non-primitive type(String, Integer, Double, Guest, etc..)
 
