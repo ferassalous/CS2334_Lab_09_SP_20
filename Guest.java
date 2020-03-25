@@ -33,9 +33,7 @@ public class Guest <T> implements Comparable<Guest<T>>{
 	/*
 	 * TODO: Generate getter for name
 	 */
-	public T getName() {
-		return name;
-	}
+	
 	public LocalDateTime getTimeCheckedIn() {
 		
 	}
